@@ -1,0 +1,923 @@
+*{ padding:0;
+   margin: 0;
+
+}
+
+
+
+#logo{ height: 60px;
+
+    margin-left: 20%;
+}
+
+
+
+section{ padding: 50px 0;}
+
+.main-btn{   display: inline-block;
+         border-radius: 50px;
+         transition: all.4s ease-in-out;
+         padding: 10px 27px;
+         background-color: transparent;
+         border: 2px  solid grey;
+         color: rgb(255, 255, 255);
+         font-weight: 500;
+         font-size: 14px;
+         text-transform: uppercase;
+         letter-spacing: 2px;
+         text-decoration: none;
+  
+}
+
+.main-btn:hover{   background-color:rgb(0, 0, 0);
+
+             border-color: black;
+             color: aliceblue;
+}
+
+
+
+
+
+
+.subtitle{    display: inline-block;
+      font-weight: 600;
+      letter-spacing: 0.5px;
+      line-height: 18px;
+      font-size: 16px;
+      margin-bottom: 12px;
+      background-color: yellowgreen;
+    
+      -webkit-text-fill-color: transparent;
+
+      
+}
+
+
+input:hover,
+input:focus,
+textarea:hover,
+textarea:focus,
+button{
+
+    outline: none;
+    box-shadow: none;
+}
+
+/* .navbar-brand{   max-width: 120px;
+                height: auto;
+
+} */
+
+.navbar-toggler{  border: 0;
+                 color: rgb(173, 4, 4);
+                 line-height: 2;
+
+}
+
+.navbar-toggler:focus{   box-shadow: none;}
+
+.nav-item{ margin: 0 10px ;
+
+        font-size: 20px;
+        font-weight: 500;
+        
+
+}
+
+.nav-link{   position: relative;
+       font-size: 21px;
+       font-weight: 500;
+       color: rgb(189, 4, 4);
+       display: inline-block;
+      
+
+}
+
+.nav-link::after{  
+
+    position: absolute;
+    content: '';
+    left: 0;
+    width: 0;
+    height: 2px;
+    background-color: rgb(134, 9, 9);
+    transition: 0.3s;
+    bottom: 0;
+   
+  }
+
+
+  
+  .nav-item .nav-link .nav-link :active ::after
+  
+  .nav-item .nav-link .nav-link :hover:after{
+    width: 100%;  
+  }
+
+#q{ background-color: rgba(0, 0, 0, 0.705);}
+
+body{ background-image: url(594b5ed8-c7fc-46d7-8814-f80ebef8f55a.jpeg);
+
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+      width: 100%;
+      height: 900px;
+     
+}
+
+
+  @import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+
+#e{ color: rgb(240, 173, 25) ;
+    
+    font-family: 'Permanent Marker', cursive;
+   text-shadow: 3px 3px black;
+}
+#r{ color: rgb(255, 255, 255);
+
+    font-family: 'Permanent Marker', cursive;
+    text-shadow: 1px 1px black;
+}
+
+
+#h{ color: aliceblue;
+    
+}
+
+#hr{ margin-top: 26%;
+     
+   background-color: rgba(0, 0, 0, 0.082);
+   width: 100%;
+
+}
+
+#six{ font-size: 35px;
+        font-weight: 500;
+        color: rgb(240, 173, 25) ;
+        font-family: 'Permanent Marker', cursive;
+    text-shadow: 4px 3px black;
+    letter-spacing: -1px;
+}
+#one{    font-size: 70px;
+    font-weight: 700;
+    color: rgb(255, 255, 255) ;
+    font-family: 'Permanent Marker', cursive;
+text-shadow: 4px 4px black;
+letter-spacing: 5px;}
+
+
+#pra{   font-size: 20px;
+    font-weight: 700;
+    color: rgb(255, 255, 255) ;
+    font-family: 'Permanent Marker', cursive;
+text-shadow: 1px 1px black;
+letter-spacing: px;}     
+
+
+
+@media  (min-width: 300px ) and (max-width:980px ) {
+
+          
+#hr{ margin-top: 46%;
+     
+    background-color: rgba(0, 0, 0, 0.644);
+    width: 100%;
+ 
+ }
+      
+
+}
+#pic{   margin-top: 584px;
+
+         width: 100%;
+
+      
+
+}
+
+#aabout{ margin-top: 10%;
+         
+    padding: 30px;
+   
+
+}
+
+#habout{  font-size: 28px;
+    color: rgb(240, 173, 25) ;
+    font-family: 'Permanent Marker', cursive;
+text-shadow: 2px 2px black;
+font-weight: 500;
+}
+
+#pass{
+font-size: 65px;
+color: rgb(0, 0, 0) ;
+font-family: 'Permanent Marker', cursive;
+text-shadow: 2px 2px black;
+}
+
+
+
+#p2{
+    font-size: 17px;
+    color: rgb(0, 0, 0) ;
+    font-family: 'Permanent Marker', cursive;
+    text-shadow: 1px 1px black;
+    }
+    
+    @media  (min-width: 1808px ) and (max-width:3740px ) {
+
+
+        #pic{   margin-top: 1209px;
+
+            width: 100%;
+   
+         
+   
+   }
+
+   #habout{  font-size: 68px;
+    color: rgb(240, 173, 25) ;
+    font-family: 'Permanent Marker', cursive;
+text-shadow: 2px 2px black;
+font-weight: 500;
+}
+
+#pass{
+font-size: 100px;
+color: rgb(0, 0, 0) ;
+font-family: 'Permanent Marker', cursive;
+text-shadow: 2px 2px black;
+}
+
+
+
+#p2{
+    font-size: 50px;
+    color: rgb(0, 0, 0) ;
+    font-family: 'Permanent Marker', cursive;
+    text-shadow: 1px 1px black;
+    }
+
+    }
+
+
+    @media  (min-width: 200px ) and (max-width:763px ) {
+
+        #pic{   margin-top: 380px;
+
+            width: 100%;
+
+            text-align: center;
+   
+         
+   
+   }
+             
+        
+    }
+
+
+    @media  (min-width: 1800px ) and (max-width:3788px ) {
+
+        #pic{   margin-top: 1240px;
+
+            width: 100%;
+
+            text-align: center;
+   
+         
+   
+   }
+
+   #picd{ width: 100%;}
+   #aabout{ width: 100%; text-align: center;}             
+        
+    }
+
+
+    @media  (min-width: 1800px ) and (max-width:3000px ) {
+
+
+                       
+        #pic{   margin-top: 33%;
+
+            width: 100%;
+
+            text-align: center;
+   
+         
+   
+   }
+
+   #picd{ width: 100%;}
+   #aabout{ width: 100%;
+     text-align: center;
+}  
+         
+
+    }
+
+
+
+
+
+    @media  (min-width: 3000px ) and (max-width:3765px ) {
+
+
+                       
+        #pic{   margin-top: 33%;
+
+            width: 100%;
+
+            text-align: center;
+   
+         
+   
+   }
+
+   #picd{ width: 100%;}
+   #aabout{ width: 100%;
+
+    text-align: center;
+}  
+         
+
+    }
+
+    #pri{ margin-top: 10%;}
+
+    #u{ text-align: center;
+    
+       
+        color: rgb(0, 0, 0) ;
+        font-family: 'Permanent Marker', cursive;
+        
+    
+    }
+
+
+    #op{ text-align: center;
+              font-size: 80px;
+       
+        color: rgb(240, 173, 25) ;;
+        font-family: 'Permanent Marker', cursive;
+        text-shadow: 2px 2px black
+        
+    
+    }
+
+
+    
+    #alla{ text-align: center;
+        font-size: 31px;
+ 
+  color: rgb(0, 0, 0) ;;
+  font-family: 'Permanent Marker', cursive;
+  text-shadow: 1px 1px black
+  
+
+}
+
+.card-text{  text-align: center;
+    font-size: 20px;
+
+color: rgb(0, 0, 0) ;;
+font-family: 'Permanent Marker', cursive;
+text-shadow: 1px 1px black
+
+
+} 
+
+.hy{  text-align: center;
+    font-size: 25px;
+
+color: rgb(240, 173, 25);
+font-family: 'Permanent Marker', cursive;
+text-shadow: 1px 1px rgba(0, 0, 0, 0.699)
+
+
+} 
+
+#gold
+{  text-align: center;
+    font-size: 45px;
+
+color: rgb(0, 0, 0);
+font-family: 'Permanent Marker', cursive;
+text-shadow: 1px 1px rgba(0, 0, 0, 0.445)
+
+
+} 
+
+#b2{ text-align: center;
+
+    color: rgb(0, 0, 0);
+    font-family: 'Permanent Marker', cursive;
+    text-shadow: 1px 1px rgba(0, 0, 0, 0.445)
+   
+     ;   margin-left: 20%;
+
+}
+
+
+@media  (min-width: 760px ) and (max-width:1170px ) {
+
+    #aabout{ width: 100%;
+
+        text-align: center;
+    }  
+             
+
+}
+
+
+.card-body:hover{  background-color: rgba(240, 172, 25, 0.295);;}
+
+
+#work{  margin-top: 7%;}
+
+
+#shaves{ text-align: center;
+    font-size: 31px;
+
+color: rgb(0, 0, 0) ;;
+font-family: 'Permanent Marker', cursive;
+text-shadow: 1px 1px black
+
+
+}
+
+
+
+#bgg{    filter: grayscale(100%); }
+
+#bgg:hover{   filter: grayscale(0%);  }
+
+  
+
+
+.swiper {
+    width: 100%;
+    height: 100%;
+  }
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .autoplay-progress {
+    position: absolute;
+    right: 16px;
+    bottom: 16px;
+    z-index: 10;
+    width: 48px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    color: var(--swiper-theme-color);
+  }
+
+  .autoplay-progress svg {
+    --progress: 0;
+    position: absolute;
+    left: 0;
+    top: 0px;
+    z-index: 10;
+    width: 100%;
+    height: 100%;
+    stroke-width: 4px;
+    stroke: var(--swiper-theme-color);
+    fill: none;
+    stroke-dashoffset: calc(125.6 * (1 - var(--progress)));
+    stroke-dasharray: 125.6;
+    transform: rotate(-90deg);
+  }
+
+
+
+
+#fo{  text-align: center;
+
+   
+    margin-top: 9px; 
+    color: rgb(0, 0, 0) ;;
+    font-family: 'Permanent Marker', cursive;
+    text-shadow: 1px 1px black
+; 
+    
+}
+
+#fb{ background-color: rgba(214, 187, 152, 0.842);}
+#fh{  margin-top: 9px;  }
+
+#ef{ 
+     
+      height: 500px;
+    
+    background: linear-gradient(rgba(0, 0, 0, 0.699),rgba(0, 0, 0, 0.699)  ),  url(image/vintage-frame-salon-tools-wooden-table-jobs-career-concept.jpg)  ;
+          
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+      
+}
+
+ 
+#ef1{ 
+
+    background: linear-gradient(rgba(0, 0, 0, 0.767),rgba(0, 0, 0, 0.842)  ),  url(image/makeup-cosmetics.jpg)  ;
+          
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 500px;
+  
+
+}  
+#carouselExampleControls{ text-align: center; 
+                     
+                             margin-top: 10%;
+                    
+                    padding-top: 10%;
+                        
+                    width: 100%;
+                    height: auto;
+                  
+
+} 
+
+
+#what{ color: rgb(238, 135, 1);
+         
+    font-family: 'Permanent Marker', cursive;
+       text-shadow: 2px 2px black;
+
+}
+
+
+#qu{      color: rgb(255, 255, 255);
+         
+    font-family: 'Permanent Marker', cursive;
+      
+   }
+#ic {color: rgb(255, 255, 255);
+         
+    font-family: 'Permanent Marker', cursive;
+    font-weight: 500;
+     
+}
+
+
+#ef12{   margin-top: 7%;}
+#appo{    text-align: center; 
+    
+      color:rgb(238, 135, 1);
+      font-family: 'Permanent Marker', cursive;
+      font-weight: 500;
+}
+#icq{   color: aliceblue;  
+        text-align: center;
+    font-family: 'Permanent Marker', cursive;
+    font-weight: 500;
+
+}
+.form-label{   color: #fff;}
+#kk1{ color: #ffffff;}
+
+
+.swiper {
+    width: 100%;
+    height: 100%;
+  }
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  @media (max-width: 760px) {
+    .swiper-button-next {
+      right: 20px;
+      transform: rotate(90deg);
+    }
+
+    .swiper-button-prev {
+      left: 20px;
+      transform: rotate(90deg);
+    }
+  }
+
+  #eenn{ height: 50px;
+    font-family: 'Permanent Marker', cursive;
+    color:rgb(238, 135, 1);
+         text-align:start;
+         padding-top: 15px;
+
+}
+#eh1{   margin-left: 250px;
+
+        line-height: 30px;
+      
+      
+}
+
+
+
+@media  (min-width: 700px ) and (max-width:1128px ) {
+
+    #eh1{   margin-left: 110px;
+
+        line-height: 30px;
+      
+      
+}
+}
+@media  (min-width: 600px ) and (max-width:770px ) {
+
+    #eh1{   margin-left: 80px;
+
+        line-height: 30px;}
+        
+}
+@media  (min-width: 780px ) and (max-width:812px ) {
+
+    #eh1{   margin-left: 40px;
+
+
+        line-height: 30px;}
+
+        #eee1{
+
+            padding-top: 10%;
+            padding-left: 10%;
+
+           text-align: center;
+        
+             
+        }
+}
+
+
+
+@media  (min-width: 400px ) and (max-width:696px ) {
+
+   #sli{  display: none;}
+
+       #eh1{   margin-left: 40px;
+
+        line-height: 30px;
+          
+        text-align: center;
+    }
+
+
+        #eee1{
+
+            padding-top: 10%;
+            padding-left: 10%;
+
+           text-align: center;
+        
+             
+        }
+}
+
+@media  (min-width: 500px ) and (max-width:800px ) {
+
+    #eee1{
+
+           display: none;
+
+             
+    
+         
+    }
+
+
+       #eh1{  display: none;  }
+
+}
+
+
+@media  (min-width: 400px ) and (max-width:770px ) {
+
+    #ef12{   margin-top: 1%;}
+
+    #ef1{    height: 740px;}
+
+}
+
+@media  (min-width: 200px ) and (max-width:396px ) {
+
+    #ef12{   margin-top: 1%;}
+
+    #ef1{    height: 900px;}
+
+}
+
+
+
+#eee{ background-color: black;
+    height: 90px;
+
+    
+}
+
+#eee1{ margin-top: 20px;
+
+    background-color: #000000;
+
+     
+}
+
+#inl{ width: 50%;
+      height: 49px;
+
+      border-radius: 20px;
+           
+      padding: 10px;
+ }
+
+
+
+
+#td1{ text-decoration: none;}
+ 
+
+.footer-section {
+background: #151414;
+position: relative;
+}
+.footer-cta {
+border-bottom: 1px solid #373636;
+}
+.single-cta i {
+    color:rgb(238, 135, 1);
+font-size: 30px;
+float: left;
+margin-top: 8px;
+}
+.cta-text {
+padding-left: 15px;
+display: inline-block;
+}
+.cta-text h4 {
+color: #fff;
+font-size: 20px;
+font-weight: 600;
+margin-bottom: 2px;
+}
+.cta-text span {
+color: #757575;
+font-size: 15px;
+}
+.footer-content {
+position: relative;
+z-index: 2;
+}
+.footer-pattern img {
+position: absolute;
+top: 0;
+left: 0;
+height: 330px;
+background-size: cover;
+background-position: 100% 100%;
+}
+.footer-logo {
+margin-bottom: 30px;
+}
+.footer-logo img {
+ max-width: 200px;
+}
+.footer-text p {
+margin-bottom: 14px;
+font-size: 14px;
+   color: #7e7e7e;
+line-height: 28px;
+}
+.footer-social-icon span {
+color: #fff;
+display: block;
+font-size: 20px;
+font-weight: 700;
+font-family: 'Poppins', sans-serif;
+margin-bottom: 20px;
+}
+.footer-social-icon a {
+color: #fff;
+font-size: 16px;
+margin-right: 15px;
+}
+.footer-social-icon i {
+height: 40px;
+width: 40px;
+text-align: center;
+line-height: 38px;
+border-radius: 50%;
+}
+.facebook-bg{
+background: #3B5998;
+}
+.twitter-bg{
+background: #55ACEE;
+}
+.google-bg{
+background:rgb(238, 135, 1);
+}
+.footer-widget-heading h3 {
+color: #fff;
+font-size: 20px;
+font-weight: 600;
+margin-bottom: 40px;
+position: relative;
+}
+.footer-widget-heading h3::before {
+content: "";
+position: absolute;
+left: 0;
+bottom: -15px;
+height: 2px;
+width: 50px;
+background:rgb(238, 135, 1);
+}
+.footer-widget ul li {
+display: inline-block;
+float: left;
+width: 50%;
+margin-bottom: 12px;
+}
+.footer-widget ul li a:hover{
+    color:rgb(238, 135, 1);
+}
+.footer-widget ul li a {
+color: #878787;
+text-transform: capitalize;
+}
+.subscribe-form {
+position: relative;
+overflow: hidden;
+}
+.subscribe-form input {
+width: 100%;
+padding: 14px 28px;
+background: #2E2E2E;
+border: 1px solid #2E2E2E;
+color: #fff;
+}
+.subscribe-form button {
+ position: absolute;
+ right: 0;
+ background:rgb(238, 135, 1);
+ padding: 13px 20px;
+ border: 1px solid #ff5e14;
+ top: 0;
+}
+.subscribe-form button i {
+color: #fff;
+font-size: 22px;
+transform: rotate(-6deg);
+}
+.copyright-area{
+background: #202020;
+padding: 25px 0;
+}
+.copyright-text p {
+margin: 0;
+font-size: 14px;
+color: #878787;
+}
+.copyright-text p a{
+    color:rgb(238, 135, 1);
+}
+.footer-menu li {
+display: inline-block;
+margin-left: 20px;
+}
+.footer-menu li:hover a{
+    color:rgb(230, 136, 13);
+}
+.footer-menu li a {
+font-size: 14px;
+color: #878787;
+}
